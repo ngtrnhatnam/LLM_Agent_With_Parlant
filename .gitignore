@@ -1,0 +1,6 @@
+test_api_key.txt
+step_by_step.txt
+.env
+__pycache__
+.venv
+.vscode

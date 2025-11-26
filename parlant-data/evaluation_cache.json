@@ -1,0 +1,117 @@
+{
+  "guideline_evaluations_3.0.4": [
+    {
+      "id": "d916c7cfc0caebb841cfaddfbd3e7ecc",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a greeting"
+        },
+        "agent_intention_condition": "You are likely to respond with a greeting",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "3aac2279497414752b08667529034ecc",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a language to learn from the list ['zh', 'en', 'fr', 'de', 'ja', 'ru', 'es', 'other'].",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "3a33a63f1e4954d5b518658cd4b88df1",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a language to learn from the list ['zh', 'en', 'fr', 'de', 'ja', 'ru', 'es', 'other']",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "2c74e6c1eec4c621ce051751e1b2c15d",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a language to learn (e.g., 'zh', 'en', 'fr', 'de', 'ja', 'ru', 'es', 'other')",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "24069320c71d9de159a84fd526336321",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides the language they want to learn.",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "b46c2300b43d2c0e758c66299aa6d2da",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a greeting and introduces itself."
+        },
+        "agent_intention_condition": "You are likely to respond with a greeting and introduce yourself.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "c736df6468135eea761ad0c8ff7c0cd4",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a language to learn from the list ['zh', 'en', 'fr', 'de', 'ja', 'ru', 'es', 'other']",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f6434ea7247476210dddb46491c1fd89",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a language to learn (e.g., 'zh', 'en', 'fr', 'de', 'ja', 'ru', 'es', 'other')",
+          "agent_action": "The agent uses the 'learn_languages' tool with the specified language."
+        },
+        "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
+        "internal_action": null
+      }
+    }
+  ],
+  "journey_evaluations_3.0.4": []
+}
