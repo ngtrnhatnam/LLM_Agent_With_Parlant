@@ -111,7 +111,617 @@
         "agent_intention_condition": "You are likely to use the learn_languages tool to assist the user in learning a language.",
         "internal_action": null
       }
+    },
+    {
+      "id": "7c2e7319edebe7d55b45db500d939993",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer needs to specify which language they want to learn and possibly provide additional details such as their current level or learning goals.",
+          "agent_action": "The agent offers assistance in helping the user learn the specified language."
+        },
+        "agent_intention_condition": "You are likely to help the user learn the specified language",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "7800b8529aa482b488ed46f50d294984",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent explains the requested grammar rule or provides a simple grammar overview."
+        },
+        "agent_intention_condition": "You are likely to explain the requested grammar rule or provide a simple grammar overview",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f9792b97a99cb807d7180d28c510c0b1",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent provides simple everyday greetings in the language the user asks about."
+        },
+        "agent_intention_condition": "You are likely to provide simple everyday greetings in the language the user asks about",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "b887491e0a91b0bb590772540af89ca7",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides their choice of language",
+          "agent_action": "The agent asks the user which language they want to learn or guides them to choose one."
+        },
+        "agent_intention_condition": "You are likely to ask the user which language they want to learn or guide them to choose one.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "da45b14777f791c0c38f13704165688e",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a greeting and introduces themselves"
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "147f321c51803e44d65ece094063a855",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent provides a small list of basic beginner-friendly vocabulary in the language requested."
+        },
+        "agent_intention_condition": "You are likely to provide a small list of basic beginner-friendly vocabulary in the language requested",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "72ede012a2ae7ef3fb5e3745e6947918",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The user provides the word or phrase they want to know how to pronounce",
+          "agent_action": "The agent guides the user on how to pronounce the specified word or phrase."
+        },
+        "agent_intention_condition": "You are likely to guide the user on how to pronounce the specified word or phrase",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "93cc44709529af90cefde5cdb1ba5c11",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent identifies the language the user is writing and returns the detection result."
+        },
+        "agent_intention_condition": "You are likely to identify the language the user is writing and return the detection result",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "12a07d50817c4a78af1b97979c648902",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a greeting and introduces themselves"
+        },
+        "agent_intention_condition": "You are likely to respond with a greeting and introduce yourself",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "0cde0fc14eb863a45a4ab6a328bcf7c8",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides information about their learning goals or specific areas they want to focus on in the target language",
+          "agent_action": "The agent offers assistance and guidance based on the user's expressed desire to learn a language"
+        },
+        "agent_intention_condition": "You are likely to help the user learn the specified language",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f828bf34e6ce4440d8073cc24c6dc01b",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer clearly expresses their desire to learn a specific language by providing information such as 'I want to learn Japanese', or mentioning a target language like English, Chinese, etc.",
+          "agent_action": "The agent calls the learn_languages tool with the language inferred from the user's message."
+        },
+        "agent_intention_condition": "You are likely to call the learn_languages tool with the language the user wants to learn.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "8da59c337aa54c434be9eecb3717d00c",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer writes a text for the agent to identify its language",
+          "agent_action": "The agent identifies the language of the provided text and returns the detection result."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f464bd1cc036779afa767fc7007705f8",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a greeting and introduces themselves"
+        },
+        "agent_intention_condition": "You are likely to respond with a greeting and introduce yourself",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e316a81967483c125a7f43290fa7931f",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent provides simple everyday greetings in the language the user asks about."
+        },
+        "agent_intention_condition": "You are likely to provide simple everyday greetings in the language the user asks about",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "87db74399130153e0f1f061c55d650ca",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_basic_vocab with appropriate topic."
+        },
+        "agent_intention_condition": "You are likely to ask for vocabulary in a topic such as numbers, family, school, daily words",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "0a00b8a1a33ac157f5fa70878bd10074",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_grammar with grammar_point from the user."
+        },
+        "agent_intention_condition": "You are likely to ask about a grammar structure, conjugation, desu, masu, masen, etc.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e65626b8abf7262e62f073098a6d88c1",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls learn_japanese with level=BEGINNER unless the user asks for a higher level."
+        },
+        "agent_intention_condition": "You are likely to start learning Japanese",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e78883040dbc7e215006717d0e1ca93d",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "Call jp_pronunciation with the phrase."
+        },
+        "agent_intention_condition": "You are likely to ask how to pronounce a Japanese word or phrase",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "9dcaae6362e1f91fa457bf29d292aa96",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_greetings."
+        },
+        "agent_intention_condition": "You are likely to respond to a user's query about how to say greetings in Japanese",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "b5565af904510666e4b7ab9849680250",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a friendly greeting and introduces themselves."
+        },
+        "agent_intention_condition": "You are likely to respond with a friendly greeting and introduce yourself.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "67b2d293f2cadef400b345301536f4e5",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "Hi, hello, hey, what's up with you?",
+          "agent_action": "Hello, hello, hey, what's up with you?"
+        },
+        "agent_intention_condition": "Respond with a friendly greeting and introduce yourself.  You are likely to (do something).",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "09f3bda5306f25eaa8f21d8e44c8ddb9",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "...",
+          "agent_action": "..."
+        },
+        "agent_intention_condition": "You are likely to greet you without specifying any particular need",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "3fe12d217b5720136062ad9bc1d440dd",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls learn_japanese with level=BEGINNER unless the student asks for a higher level."
+        },
+        "agent_intention_condition": "You are likely to initiate a learning session for Japanese",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f1fcbffd57f3804c54de768adabf94ba",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_grammar with grammar_point from the student."
+        },
+        "agent_intention_condition": "You are likely to discuss a grammar structure, conjugation, desu, masu, masen, etc.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "96997af7cb5178119fccfadcc10e7fd2",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent responds with a friendly greeting, introduces themselves, and offers to help them learn Japanese."
+        },
+        "agent_intention_condition": "You are likely to greet a student without specifying any particular need",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "3099c4252b74602bbc89cd4b8a2b7a60",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_pronunciation with the phrase."
+        },
+        "agent_intention_condition": "You are likely to ask a student how to pronounce a Japanese word or phrase",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "54ce51f4362222778b7b330ecb7705f9",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_basic_vocab with appropriate topic."
+        },
+        "agent_intention_condition": "You are likely to discuss a student's vocabulary in a topic such as numbers, family, school, daily words",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "77b00ac898be8bc68b394b1133588371",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent calls jp_greetings."
+        },
+        "agent_intention_condition": "You are likely to respond to a student's question about how to say greetings in Japanese",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "8a8c774708d5531cb48c7c724f45b3b2",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "the agent offers a refreshing drink"
+        },
+        "agent_intention_condition": "You are likely to greet the customer",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "f6690b3e64c4bc092ac5704fe761bbbc",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": null,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null,
+        "tool_running_only": false
+      }
+    },
+    {
+      "id": "227ca3cf2b432a20ac4a3aba368515e3",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "the agent greets them back and offers to help plan their trip"
+        },
+        "agent_intention_condition": "You are likely to greet them back and offer to help plan their trip",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e19dc51c76a6108bed7f7618bd2c9d3d",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent greets the customer and introduces themselves as a study advisor, offering help with planning and organizing study schedules."
+        },
+        "agent_intention_condition": "You are likely to greet them back and introduce yourself as a study advisor, offering help with planning and organizing study schedules",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "449c5357bce7799761d429cd2090ab33",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent asks the customer for their subject, duration, hours per day, level, and then uses the task_planner tool to generate a study plan or find relevant materials."
+        },
+        "agent_intention_condition": "You are likely to get the necessary information from the customer, such as subject, duration, hours per day they can learning, and their level, then use the task_planner tool to generate a study plan or find relevant materials.",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "4476a72c1c52febe50dd4b0ad9d45501",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "the agent helps them planning their study schedule"
+        },
+        "agent_intention_condition": "You are likely to help a customer with their study schedule planning",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "392b8bf5c2ba5e1c69478720f5c4ec8d",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": null,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent asks the class level of the student in range 1 - 12."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null,
+        "tool_running_only": false
+      }
+    },
+    {
+      "id": "ea4d009392110189751339340ca3a9f0",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": null,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "Use the tool get_educational_level"
+        },
+        "agent_intention_condition": null,
+        "internal_action": null,
+        "tool_running_only": true
+      }
+    },
+    {
+      "id": "e229736e56c193d8d3618419c3c9657b",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": "You are likely to help a customer with study planning",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e43e8e274fc37ec5d246a709540edc62",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent greets the customer and introduces themselves as a study advisor, offering help with planning and organizing study schedules."
+        },
+        "agent_intention_condition": "You are likely to greet them back and introduce yourself as a study advisor, offering help with planning and organizing study schedules",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e143fe82b3ebac564e5b7a5baa66dd79",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": null,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "The agent asks the subject that the student wants to set study plan."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null,
+        "tool_running_only": false
+      }
+    },
+    {
+      "id": "6f1f180fb7fc47d2f8311082ebe3e017",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": "You are likely to provide study planning assistance",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "9d83d6058e17c31cd5ad4d8a5403bd24",
+      "version": "3.0.4",
+      "properties": {
+        "continuous": null,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": "Use the tool validate_subject"
+        },
+        "agent_intention_condition": null,
+        "internal_action": null,
+        "tool_running_only": true
+      }
     }
   ],
-  "journey_evaluations_3.0.4": []
+  "journey_evaluations_3.0.4": [
+    {
+      "id": "6c87f1652cd0f131676870e3cfd1ace1",
+      "version": "3.0.4",
+      "node_properties": {},
+      "edge_properties": {}
+    },
+    {
+      "id": "5ed2c4421e94ccf2709aeb838403a42e",
+      "version": "3.0.4",
+      "node_properties": {},
+      "edge_properties": {}
+    },
+    {
+      "id": "194df8dec19de952b0b5c58078303976",
+      "version": "3.0.4",
+      "node_properties": {},
+      "edge_properties": {}
+    },
+    {
+      "id": "574e46972f7d94bb830ae2ebde6d409e",
+      "version": "3.0.4",
+      "node_properties": {},
+      "edge_properties": {}
+    },
+    {
+      "id": "0ec08a30d409ab215917f7c754b425ee",
+      "version": "3.0.4",
+      "node_properties": {},
+      "edge_properties": {}
+    }
+  ]
 }

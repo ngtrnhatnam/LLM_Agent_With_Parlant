@@ -1,2 +1,2 @@
 [parlant]
-modules = [ "learn_language",]
+modules = [ "task_planner",]
